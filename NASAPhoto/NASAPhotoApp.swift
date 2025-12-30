@@ -11,7 +11,9 @@ import SwiftUI
 struct NASAPhotoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                PhotoShow()
+            }
         }
     }
 }
